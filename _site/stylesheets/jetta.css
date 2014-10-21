@@ -1,7 +1,7 @@
 .jetta2015 {
     height: 330px;
     width: 100%;
-    background: #fff url('/images/hero.png') center top no-repeat;
+    background: #fff url('../images/hero.png') center top no-repeat;
     text-align: center;
     padding: 85px 0 0 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
