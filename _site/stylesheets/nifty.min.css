@@ -96,21 +96,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     margin-right:.5em
 }
 
-#page-content {
-    
-}
+#page-content{padding:5px 20px 0}
 
-@media (min-width:768px) {
-#page-content {
-   
-}
-}
+@media (min-width:768px){#page-content{padding:10px 20px 0}}
 
-@media (min-width:992px) {
-#page-content {
-    
-}
-}
+@media (min-width:992px){#page-content{padding:20px 85px 0}}
 
 .searchbox {
     margin-right:-20px
@@ -613,7 +603,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #container.mainnav-in .navbar-brand,#container.mainnav-lg .navbar-brand,#container.mainnav-in .brand-title,#container.mainnav-lg .brand-title {
-    width:220px
+    width:270px
 }
 
 #container.mainnav-in .brand-icon,#container.mainnav-sm .brand-icon,#container.mainnav-lg .brand-icon {
@@ -665,8 +655,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 
 #mainnav-container {
     position:absolute;
-    width:220px;
-    left:-220px;
+    width:270px;
+    left:-270px;
     padding-top:50px;
     top:0;
     bottom:0;
@@ -746,7 +736,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     display:block;
     font-weight:500;
     color:#adb3b8;
-    font-size:12px;
+    font-size:15px;
     padding:14px 20px
 }
 
