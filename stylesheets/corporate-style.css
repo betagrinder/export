@@ -2402,7 +2402,8 @@ Author URI: http://www.ab-themes.com
 	}
 
 	nav > ul > li > a{
-		margin-left: 32px;
+		margin-left: 20px;
+		font-size: 14px
 	}
 
 	nav > ul > li a:hover{

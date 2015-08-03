@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>ITA Articles</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      
+        <div id="results_container" style="padding: 15px;">
+                </div>
+    </div>
+     <script>
+                                                $(document).ready(function() {
+                                                                get_results();
+                                                });
+                                                function get_results()
+                                                {
+                                                                $.getJSON('https://api.govwizely.com/v2/ita_taxonomies/search?api_key=-DgaM8IefU4280JDV36SHZC1&size=100', function(d)
+                                                                {
+                                                                                $("#results_container").empty();
+                                                                                for (x in d.results)
+                                                                                {
+                                                                                                row = '<div id="result_' + x + '"><h1 class="name">' +  d.results[x].name + '</h1><div class="taxonomy">' + d.results[x].taxonomy + '</div>'
+                                                                                                if (x < d.results.length-1)
+                                                                                                {
+                                                                                                                row = row + '<hr>';
+                                                                                                }
+                                                                                                row = row + "</div>";
+                                                                                                $("#results_container").append(row);
+                                                                                                
+                                                                                }
+                                                                               
+                                                                });
+                                                }
+                                </script>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
+
