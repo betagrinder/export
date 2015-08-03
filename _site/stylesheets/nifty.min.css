@@ -96,11 +96,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     margin-right:.5em
 }
 
-#page-content{padding:5px 20px 0}
+#page-content{padding:0}
 
-@media (min-width:768px){#page-content{padding:10px 20px 0}}
+@media (min-width:768px){#page-content{padding:0}}
 
-@media (min-width:992px){#page-content{padding:20px 85px 0}}
+@media (min-width:992px){#page-content{padding:0}}
 
 .searchbox {
     margin-right:-20px

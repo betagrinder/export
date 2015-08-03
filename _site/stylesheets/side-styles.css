@@ -96,11 +96,21 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     margin-right:.5em
 }
 
-#page-content{padding:0}
+#page-content {
+    padding:5px 20px 0
+}
 
-@media (min-width:768px){#page-content{padding:0}}
+@media (min-width:768px) {
+#page-content {
+    padding:10px 20px 0
+}
+}
 
-@media (min-width:992px){#page-content{padding:0}}
+@media (min-width:992px) {
+#page-content {
+    padding:20px 25px 0
+}
+}
 
 .searchbox {
     margin-right:-20px
@@ -603,7 +613,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #container.mainnav-in .navbar-brand,#container.mainnav-lg .navbar-brand,#container.mainnav-in .brand-title,#container.mainnav-lg .brand-title {
-    width:270px
+    width:220px
 }
 
 #container.mainnav-in .brand-icon,#container.mainnav-sm .brand-icon,#container.mainnav-lg .brand-icon {
@@ -655,8 +665,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 
 #mainnav-container {
     position:absolute;
-    width:270px;
-    left:-270px;
+    width:265px;
+    left:-265px;
     padding-top:50px;
     top:0;
     bottom:0;
@@ -734,9 +744,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 
 #mainnav-menu a {
     display:block;
-    font-weight:500;
+    font-weight:300;
     color:#adb3b8;
-    font-size:15px;
+    font-size: 13px;
     padding:14px 20px
 }
 
@@ -945,7 +955,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #container.mainnav-lg #footer,#container.mainnav-lg #content-container {
-    padding-left:220px
+    padding-left:265px
 }
 }
 

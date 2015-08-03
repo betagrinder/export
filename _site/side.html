@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Export.gov side nav tempalte</title>
+	<title>Export.gov</title>
 
 
 	<!--STYLESHEET-->
@@ -20,8 +20,9 @@
 
 
 	<!--Nifty Stylesheet [ REQUIRED ]-->
-	<link href="stylesheets/nifty.min.css" rel="stylesheet">
-
+	<link href="stylesheets/side-styles.css" rel="stylesheet">
+	
+	
 	
 	<!--Font Awesome [ OPTIONAL ]-->
 	<link href="font-awesome.min.css" rel="stylesheet">
@@ -45,17 +46,9 @@
 
 	<!--Demo script [ DEMONSTRATION ]-->
 	<link href="http://www.themeon.net/nifty/v2.2/css/demo/nifty-demo.min.css" rel="stylesheet">
-
-
-
-
-	<!--SCRIPT-->
-	<!--=================================================-->
-
-	<!--Page Load Progress Bar [ OPTIONAL ]-->
-	<link href="http://www.themeon.net/nifty/v2.2/plugins/pace/pace.min.css" rel="stylesheet">
-	<script src="http://www.themeon.net/nifty/v2.2/plugins/pace/pace.min.js"></script>
-
+	
+	<!--Light Theme-->
+	<link href="stylesheets/theme-light.min.css" rel="stylesheet">
 
 	
 	<!--
@@ -87,7 +80,7 @@
 <!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
 
 <body>
-	<div id="container" class="effect mainnav-lg">
+	<div id="container" class="effect mainnav-lg navbar-fixed">
 		
 		<!--NAVBAR-->
 		<!--===================================================-->
@@ -97,17 +90,15 @@
 				<!--Brand logo & name-->
 				<!--================================-->
 				<div class="navbar-header">
-					<a href="/" class="navbar-brand">
-						<div class="brand-title" style="padding: 0 1.5em 0 25px;">
+					<a href="/side.html" class="navbar-brand">
+						<div class="brand-title" style="padding: 0 1.5em 0 20px;">
 						
-							<span><img src="images/eg3.png" alt="Logo" width="190"></span>
+							<span><img src="images/eg3-blue.png" alt="Logo" width="180"></span>
 						</div>
 					</a>
 				</div>
 				<!--================================-->
 				<!--End brand logo & name-->
-				
-				
 
 
 				<!--Navbar Dropdown-->
@@ -124,9 +115,6 @@
 						</li>
 						<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 						<!--End Navigation toogle button-->
-
-
-						
 
 
 						<!--Mega dropdown-->
@@ -199,6 +187,7 @@
 						<!--End mega dropdown-->
 
 					</ul>
+					
 					<ul class="nav navbar-top-links pull-right">
 
 					<li >
@@ -223,6 +212,8 @@
 							</li>-->
 
 					</ul>
+					
+					
 				</div>
 				<!--================================-->
 				<!--End Navbar Dropdown-->
@@ -238,21 +229,11 @@
 			<!--===================================================-->
 			<div id="content-container">
 				
-			
+				
 
-
-		
-
-				<!--Page content-->
-				<!--===================================================-->
-				<div id="page-content" >
-					
-					<div class="row">
-						<div class="row-fluid">
-					
-					<!-- Carousel
+<!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -261,84 +242,200 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="images/3.png" alt="First slide" style="max-height:600px;">
+          <img class="first-slide" src="images/herobox1.jpg" alt="First slide" >
           <div class="container">
-            <div class="carousel-caption">
-              <h1>LEARN ABOUT EXPORTING</h1>
-              <p>Learn about upcoming training opportunities, review the Basic Guide to Exporting, and connect with counselors who can answer your exporting questions.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn</a></p>
+            <div class="carousel-caption" style="  top: auto;
+  bottom: 90px;
+  right: auto;
+  left: 65%;
+  color: #FFF;
+  width: 300px;
+    padding-left: 30px;
+  padding-right: 30px;
+  text-shadow: 0;
+  background-color: rgba(0,0,0,0.3);">
+              <h1 >LEARN ABOUT EXPORTING</h1>
+              <p >Learn about upcoming training opportunities, review the Basic Guide to Exporting, and connect with counselors who can answer your exporting questions.</p>
+              <p><a class="btn btn-lg btn-mint" href="#" role="button">Learn</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="images/2.png" alt="Second slide" style="max-height:600px;">
+          <img class="second-slide" src="images/herobox2.jpg" alt="Second slide" >
           <div class="container">
-            <div class="carousel-caption">
-              <h1>READY TO EXPORT</h1>
-              <p>You have an established business and your product or service is selling well. View information about potential markets and make your first international sale.</p>
+            <div class="carousel-caption" style="  top: auto;
+  bottom: 20px;
+  right: auto;
+  left: 5%;
+  color: #FFF;
+  width: 500px;
+  text-shadow: 0;">
+              <h1 class="text-danger">READY TO EXPORT</h1>
+              <p class="text-dark">You have an established business and your product or service is selling well. View information about potential markets and make your first international sale.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Start</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="images/3.png" alt="Third slide" style="max-height:600px;" >
+          <img class="third-slide" src="images/herobox3.jpg" alt="Third slide" >
           <div class="container">
-            <div class="carousel-caption">
-              <h1 style="color:#32404e;">EXPAND MY EXPORTS</h1>
-              <p style="color:#32404e;">Already exporting? Great! Grow your sales by expanding into new markets. Register/Login to Export.gov to receive personalized information on your markets.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Expand</a></p>
+                        <div class="carousel-caption" style="  top: auto;
+  bottom: 400px;
+  right: auto;
+  left: 2%;
+  color: #FFF;
+  width: 500px;
+  text-shadow: 0;">
+              <h1 class="text-success">EXPAND MY EXPORTS</h1>
+              <p class="text-dark" >Already exporting? Great! Grow your sales by expanding into new markets. Register/Login to Export.gov to receive personalized information on your markets.</p>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Expand</a></p>
             </div>
           </div>
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span  aria-hidden="true"><i class="fa fa-chevron-left fa-5x"></i></span>
+        <span  aria-hidden="true"><i class="fa fa-angle-left fa-5x"></i></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span aria-hidden="true"><i class="fa fa-chevron-right fa-5x"></i></span>
+        <span aria-hidden="true"><i class="fa fa-angle-right fa-5x"></i></span>
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
-							
-					</div></div>		
-							
+		
+
+				<!--Page content-->
+				<!--===================================================-->
+				
 					
-							
+					<div class="row">
 						
-						
+					
+					<div class="col-sm-6">
+					
+							<div class="panel">
+					
+								<!--Carousel-->
+								<!--===================================================-->
+								<div id="demo-carousel" class="carousel slide" data-ride="carousel">
+								
+					
+									<!--Indicators-->
+									<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+									<ol class="carousel-indicators dark out">
+										<li class="active" data-slide-to="0" data-target="#demo-carousel"></li>
+										<li data-slide-to="1" data-target="#demo-carousel"></li>
+										<li class="" data-slide-to="2" data-target="#demo-carousel"></li>
+									</ol>
+									<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+					
+									
+									<div class="carousel-inner text-center">
+					<h2>FAQs on Exporting</h2>
+										<!--Item 2-->
+										<div class="item pad-ver">
+											<h4>Importing</h4>
+											<p>How do I import products into the United States?</p>
+										</div>
+					
+					
+										<!--Item 2-->
+										<div class="item pad-ver active">
+											<h4>Trade Barriers</h4>
+											<p>I am having problems getting paid. How can I get help?</p>
+										</div>
+					
+					
+										<!--Item 2-->
+										<div class="item pad-ver">
+											<h4>Export Basics</h4>
+											<p>What are some export strategies and approaches I should consider?</p>
+										</div>
+									</div>
+									
+					
+									
+					
+								</div>
+								<!--===================================================-->
+								<!--End Carousel-->
+					
+					
+							</div>
 						</div>
 					
 					
 					
 					
+							
 					
-				</div>
+						<div class="col-sm-6">
+							<div class="panel bg-dark">
+					
+								<!--Carousel - Dark Theme -->
+								<!--===================================================-->
+								<div id="demo-carousel-auto-hide" class="carousel slide" data-ride="carousel">
+					
+									<!-- Square Indicators-->
+									<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+									<ol class="carousel-indicators square out">
+										<li data-slide-to="0" data-target="#demo-carousel-auto-hide"></li>
+										<li class="active" data-slide-to="1" data-target="#demo-carousel-auto-hide"></li>
+										<li data-slide-to="2" data-target="#demo-carousel-auto-hide"></li>
+									</ol>
+									<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+					
+									<div class="carousel-inner text-center">
+					<h2>Upcoming Events</h2>
+										<!--Item 2-->
+										<div class="item pad-ver">
+											<h4>August 5, 2015</h4>
+											<em>Export University 101: Introduction to Exporting - August 5, 2015</em>
+										</div>
+					
+					
+										<!--Item 2-->
+										<div class="item pad-ver active">
+											<h4>August 5, 2015</h4>
+											<em>Meeting of US Architecture Mission 2014 Participant & Saudi Council of Engineer</em>
+										</div>
+					
+					
+										<!--Item 2-->
+										<div class="item pad-ver">
+											<h4>August 6, 2015</h4>
+											<em>Opportunities for Construction & Building Products in Mexico</em>
+										</div>
+									</div>
+					
+					
+									
+								</div>
+								<!--===================================================-->
+								<!--End Carousel - Dark Theme -->
+					
+							</div>
+						</div>
+						
+					</div>
+					
+					
+					
+				
 				<!--===================================================-->
 				<!--End page content-->
 
 
-
+			</div>
 			<!--===================================================-->
 			<!--END CONTENT CONTAINER-->
-</div>
+
 
 			
 			<!--MAIN NAVIGATION-->
 			<!--===================================================-->
-			<nav id="mainnav-container">
+			<nav id="mainnav-container" >
 				<div id="mainnav">
-</br>
-					<!--Searchbox-->
-					<div class="searchbox">
-						<div class="input-group custom-search-form">
-							<input type="text" class="form-control" placeholder="Search..">
-							<span class="input-group-btn">
-								<button class="text-muted" type="button"><i class="fa fa-search"></i></button>
-							</span>
-						</div>
-					</div>
-					</br>
 
 					<!--Menu-->
 					<!--================================-->
@@ -346,185 +443,212 @@
 						<div class="nano">
 							<div class="nano-content">
 								<ul id="mainnav-menu" class="list-group">
-				
-									<!--Menu list item-->
-									<li class="active-link">
-										<a href="index.html">
-											<i class="fa fa-dashboard"></i>
-											<span class="menu-title">
-												<strong>Home</strong>
-									
-											</span>
-										</a>
-									</li>
+									<!--Category name-->
+									<li >
+									<!--Searchbox-->
+					<div class="searchbox">
+						<div class="input-group custom-search-form">
+							<input type="text" class="form-control" placeholder="Search..">
+							<span class="input-group-btn">
+								<button class="text-muted" type="button"><i class="fa fa-search"></i></button>
+							</span>
+						</div>
+					</div></li>
+									<li class="list-header">Navigation</li>
+
 						
 									<!--Menu list item-->
 									<li>
 										<a href="#">
-											<i class="fa fa-th"></i>
+											<i class="fa fa-user text-primary"></i>
 											<span class="menu-title">
-												<strong>My Export</strong>
+												<strong>MY EXPORT</strong>
 											</span>
 											<i class="arrow"></i>
 										</a>
 						
 										<!--Submenu-->
 										<ul class="collapse">
-											<li><a href="#">Sign in</a></li>
+											<li><a href="#">Sign In</a></li>
 											<li><a href="#">Register</a></li>
-											
+										</ul>
+									</li>
+									
+									<!--Menu list item-->
+									<li>
+										<a href="#">
+											<i class="fa fa-cog text-success"></i>
+											<span class="menu-title">
+												<strong>THE EXPORT PROCESS</strong>
+											</span>
+											<i class="arrow"></i>
+										</a>
+						
+										<!--Submenu-->
+										<ul class="collapse">
+											<li><a href="#">Export Planning</a></li>
+											<li><a href="#">International Sales & Marketing</a></li>
+											<li><a href="#">Selling Online</a></li>
+											<li><a href="#">Find Business Partners</a></li>
+											<li><a href="#">Trade Agreements</a></li>
+											<li><a href="#">Counseling/Export Advice</a></li>
+										</ul>
+									</li>
+									
+									<!--Menu list item-->
+									<li>
+										<a href="#">
+											<i class="fa fa-search-plus text-info"></i>
+											<span class="menu-title">
+												<strong>MARKET RESEARCH</strong>
+											</span>
+											<i class="arrow"></i>
+										</a>
+						
+										<!--Submenu-->
+										<ul class="collapse">
+											<li><a href="#">By Industry</a></li>
+											<li><a href="#">By Country and Region</a></li>
+											<li><a href="#">Economic Data</a></li>
+										</ul>
+									</li>
+									
+									<!--Menu list item-->
+									<li>
+										<a href="#">
+											<i class="fa fa-line-chart text-warning"></i>
+											<span class="menu-title">
+												<strong>FINANCING & PAYMENT</strong>
+											</span>
+											<i class="arrow"></i>
+										</a>
+						
+										<!--Submenu-->
+										<ul class="collapse">
+											<li><a href="#">Trade Finance Guide</a></li>
+											<li><a href="#">Getting Paid</a></li>
+											<li><a href="#">Government Assistance Programs</a></li>
+										</ul>
+									</li>
+									
+									<!--Menu list item-->
+									<li>
+										<a href="#">
+											<i class="fa fa-gavel text-danger"></i>
+											<span class="menu-title">
+												<strong>LEGAL CONSIDERATIONS</strong>
+											</span>
+											<i class="arrow"></i>
+										</a>
+						
+										<!--Submenu-->
+										<ul class="collapse">
+											<li><a href="#">Safe Harbor</a></li>
+											<li><a href="#">Export Regulations</a></li>
+											<li><a href="#">Foreign Regulations</a></li>
+											<li><a href="#">Intellectual Property Protection</a></li>
+										</ul>
+									</li>
+									
+									<!--Menu list item-->
+									<li>
+										<a href="#">
+											<i class="fa fa-lightbulb-o text-mint"></i>
+											<span class="menu-title">
+												<strong>TRADE PROBLEM </br>RESOLUTION</strong>
+											</span>
+											<i class="arrow"></i>
+										</a>
+						
+										<!--Submenu-->
+										<ul class="collapse">
+											<li><a href="#">Foreign Anti-Dumping Actions</a></li>
+											<li><a href="#">Foreign Countervailing Duty Actions</a></li>
+											<li><a href="#">Report a Trade Barrier Hotline</a></li>
+											<li><a href="#">Case Studies</a></li>
+										</ul>
+									</li>
+									
+									<!--Menu list item-->
+									<li>
+										<a href="#">
+											<i class="fa fa-calendar text-purple"></i>
+											<span class="menu-title">
+												<strong>EVENTS</strong>
+											</span>
+											<i class="arrow"></i>
+										</a>
+						
+										<!--Submenu-->
+										<ul class="collapse">
+											<li><a href="#">Trade Missions</a></li>
+											<li><a href="#">Training Programs</a></li>
+											<li><a href="#">Webinars</a></li>
+											<li><a href="#">Discover Global Markets</a></li>
+											<li><a href="#">Search All Events</a></li>
+											<li><a href="#">Trade Shows</a></li>
+										</ul>
+									</li>
+									
+									<!--Menu list item-->
+									<li>
+										<a href="#">
+											<i class="fa fa-phone text-pink"></i>
+											<span class="menu-title">
+												<strong>CONTACTS & ANSWERS</strong>
+											</span>
+											<i class="arrow"></i>
+										</a>
+						
+										<!--Submenu-->
+										<ul class="collapse">
+											<li><a href="#">FAQs</a></li>
+											<li><a href="#">Tariffs</a></li>
+											<li><a href="#">Advocacy Program</a></li>
+											<li><a href="#">Domestic Offices</a></li>
+											<li><a href="#">International Offices</a></li>
+											<li><a href="#">Industry Offices</a></li>
 										</ul>
 									</li>
 								
 									<!--Menu list item-->
 									<li>
 										<a href="#">
-											<i class="fa fa-briefcase"></i>
-											<span class="menu-title">The Export Process</span>
+											<i class="fa fa-wrench text-dark"></i>
+											<span class="menu-title">
+												<strong>SERVICES</strong>
+											</span>
 											<i class="arrow"></i>
 										</a>
-						
-										<!--Submenu-->
-										<ul class="collapse">
-											<li><a href="#">Export Basics</a></li>
-											<li><a href="#">Basic Guide to Exporting</a></li>
-											<li><a href="#">Readiness Assessment</a></li>
-											<li><a href="#">International Logistics</a></li>
-											
-										</ul>
-									</li>
-						
-									<!--Menu list item-->
-									<li>
-										<a href="#">
-											<i class="fa fa-edit"></i>
-											<span class="menu-title">Explorer Opportunities</span>
-											<i class="arrow"></i>
-										</a>
-						
-										<!--Submenu-->
-										<ul class="collapse">
-											<li><a href="forms-general.html">Conduct Research</a></li>
-											<li><a href="forms-components.html">Learn Marketing Topics</a></li>
-											<li><a href="forms-validation.html">Explorer Markets</a></li>
-											<li><a href="forms-wizard.html">Explorer Programs</a></li>
-											
-										</ul>
-									</li>
-						
-									<!--Menu list item-->
-									<li>
-										<a href="#">
-											<i class="fa fa-table"></i>
-											<span class="menu-title">Obtain Financing</span>
-											<i class="arrow"></i>
-										</a>
-						
-										<!--Submenu-->
-										<ul class="collapse">
-											<li><a href="#">Finance Your Exports</a></li>
-											<li><a href="#">Assess Your Finance Options</a></li>
-											<li><a href="#">Getting Paid</a></li>
-											<li><a href="#">Trade Finance Guide</a></li>
-											
-										</ul>
-									</li>
-									
-									<!--Menu list item-->
-									<li>
-										<a href="#">
-											<i class="fa fa-plug"></i>
-											<span class="menu-title">Comply With Regulations</span>
-											<i class="arrow"></i>
-										</a>
-						
-										<!--Submenu-->
-										<ul class="collapse">
-											<li><a href="#">US Export Regulations</a></li>
-											<li><a href="#">European Regulations</a></li>
-											
-										</ul>
-									</li>
-									
-									<!--Menu list item-->
-									<li>
-										<a href="#">
-											<i class="fa fa-plus-square"></i>
-											<span class="menu-title">Resolve Trade Problems</span>
-											<i class="arrow"></i>
-										</a>
-						
-										<!--Submenu-->
-										<ul class="collapse">
-											<li><a href="#">Help With Trade Problems</a></li>
-										</ul>
-									</li>
-									
-									<!--Menu list item-->
-									<li>
-										<a href="#">
-											<i class="fa fa-file"></i>
-											<span class="menu-title">Attend Trade Events</span>
-											<i class="arrow"></i>
-										</a>
-						
-										<!--Submenu-->
-										<ul class="collapse">
-											<li><a href="#">Trade Events</a></li>
-											<li><a href="#">Training Programs</a></li>
-											<li><a href="#">Webinars</a></li>
-										</ul>
-									</li>
-									
-									<!--Menu list item-->
-									<li>
-										<a href="#">
-											<i class="fa fa-envelope"></i>
-											<span class="menu-title">Contacts & Answers</span>
-											<i class="arrow"></i>
-										</a>
-						
-										<!--Submenu-->
-										<ul class="collapse">
-											<li><a href="#">Browse FAQs</a></li>
-											<li><a href="#">Ask a Question</a></li>
-											<li><a href="#">Contact a Trade Specialist</a></li>
-											<li><a href="#">Domestic Offices</a></li>
-											<li><a href="#">International Offices</a></li>
-											<li><a href="#">District Export Councils</a></li>
-										</ul>
-									</li>
 
-						
-					
-									
+										<!--Submenu-->
+										<ul class="collapse">
+											<li>
+												<a href="#">For Exporters<i class="arrow"></i></a>
+
+												<!--Submenu-->
+												<ul class="collapse">
+													<li><a href="#">Trade Agreements Compliance (TAC) Program</a></li>
+													<li><a href="#">Commercial Service (CS)</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="#">Trade Promotion</br>Programs<i class="arrow"></i></a>
+
+												<!--Submenu-->
+												<ul class="collapse">
+													<li><a href="#">Initiatives (DBIA, NEI/NEXT, Look South, etc.)</a></li>
+													<li><a href="#">Strategic Partnership Program</a></li>
+													<li><a href="#">Trade Fair Certification</a></li>
+													<li><a href="#">Certified Trade Mission Information</a></li>
+													<li><a href="#">International Buyer Programs</a></li>
+													<li><a href="#">Market Development Cooperator Program</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
 
 								</ul>
-
-
-								<!--Widget-->
-								<!--================================-->
-								<div class="mainnav-widget">
-
-									<!-- Show the button on collapsed navigation -->
-									<div class="show-small">
-										<a href="#" data-toggle="menu-widget" data-target="#demo-wg-server">
-											<i class="fa fa-desktop"></i>
-										</a>
-									</div>
-
-									<!-- Hide the content on collapsed navigation -->
-									<div id="demo-wg-server" class="hide-small mainnav-widget-content">
-										<ul class="list-group">
-											  <p class="footer2">
-    Export.gov is an official site of the U.S. Government<br>
-  </p>
-											
-										</ul>
-									</div>
-								</div>
-								<!--================================-->
-								<!--End widget-->
 
 							</div>
 						</div>
@@ -577,14 +701,14 @@
 								<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 								<div class="tab-pane fade in active" id="demo-asd-tab-1">
 									<h4 class="pad-hor text-thin">
-										<span class="pull-right badge badge-warning"></span> International Offices
+										<span class="pull-right badge badge-warning">3</span> Family
 									</h4>
 
 									<!--Family-->
 									<div class="list-group bg-trans">
 										<a href="#" class="list-group-item">
 											<div class="media-left">
-												<img class="img-circle img-xs" src="http://www.themeon.net/nifty/v2.2/img/av2.png" alt="Profile Picture">
+												<img class="img-circle img-xs" src="img/av2.png" alt="Profile Picture">
 											</div>
 											<div class="media-body">
 												<div class="text-lg">Stephen Tran</div>
@@ -593,7 +717,7 @@
 										</a>
 										<a href="#" class="list-group-item">
 											<div class="media-left">
-												<img class="img-circle img-xs" src="http://www.themeon.net/nifty/v2.2/img/av4.png" alt="Profile Picture">
+												<img class="img-circle img-xs" src="img/av4.png" alt="Profile Picture">
 											</div>
 											<div class="media-body">
 												<div class="text-lg">Brittany Meyer</div>
@@ -602,7 +726,7 @@
 										</a>
 										<a href="#" class="list-group-item">
 											<div class="media-left">
-												<img class="img-circle img-xs" src="http://www.themeon.net/nifty/v2.2/img/av3.png" alt="Profile Picture">
+												<img class="img-circle img-xs" src="img/av3.png" alt="Profile Picture">
 											</div>
 											<div class="media-body">
 												<div class="text-lg">Donald Brown</div>
@@ -614,14 +738,14 @@
 
 									<hr>
 									<h4 class="pad-hor text-thin">
-										<span class="pull-right badge badge-info">4</span> U.S. Offices
+										<span class="pull-right badge badge-info">4</span> Friends
 									</h4>
 
 									<!--Friends-->
 									<div class="list-group bg-trans">
 										<a href="#" class="list-group-item">
 											<div class="media-left">
-												<img class="img-circle img-xs" src="http://www.themeon.net/nifty/v2.2/img/av5.png" alt="Profile Picture">
+												<img class="img-circle img-xs" src="img/av5.png" alt="Profile Picture">
 											</div>
 											<div class="media-body">
 												<div class="text-lg">Betty Murphy</div>
@@ -630,7 +754,7 @@
 										</a>
 										<a href="#" class="list-group-item">
 											<div class="media-left">
-												<img class="img-circle img-xs" src="http://www.themeon.net/nifty/v2.2/img/av6.png" alt="Profile Picture">
+												<img class="img-circle img-xs" src="img/av6.png" alt="Profile Picture">
 											</div>
 											<div class="media-body">
 												<div class="text-lg">Olivia Spencer</div>
@@ -639,7 +763,7 @@
 										</a>
 										<a href="#" class="list-group-item">
 											<div class="media-left">
-												<img class="img-circle img-xs" src="http://www.themeon.net/nifty/v2.2/img/av4.png" alt="Profile Picture">
+												<img class="img-circle img-xs" src="img/av4.png" alt="Profile Picture">
 											</div>
 											<div class="media-body">
 												<div class="text-lg">Sarah Ruiz</div>
@@ -648,7 +772,7 @@
 										</a>
 										<a href="#" class="list-group-item">
 											<div class="media-left">
-												<img class="img-circle img-xs" src="http://www.themeon.net/nifty/v2.2/img/av3.png" alt="Profile Picture">
+												<img class="img-circle img-xs" src="img/av3.png" alt="Profile Picture">
 											</div>
 											<div class="media-body">
 												<div class="text-lg">Paul Aguilar</div>
@@ -660,7 +784,7 @@
 
 									<hr>
 									<h4 class="pad-hor text-thin">
-										<span class="pull-right badge badge-success">Online</span> Web
+										<span class="pull-right badge badge-success">Offline</span> Works
 									</h4>
 
 									<!--Works-->
@@ -693,13 +817,26 @@
 
 									<!--Monthly billing-->
 									<div class="pad-all">
-										<h4 class="text-lg mar-no">Export Status</h4>
-										<p class="text-sm">July 2015</p>
-										<button class="btn btn-block btn-success mar-top">Export</button>
+										<h4 class="text-lg mar-no">Monthly Billing</h4>
+										<p class="text-sm">January 2015</p>
+										<button class="btn btn-block btn-success mar-top">Pay Now</button>
 									</div>
 
 
-									
+									<hr>
+
+									<!--Information-->
+									<div class="text-center clearfix pad-top">
+										<div class="col-xs-6">
+											<span class="h4">4,327</span>
+											<p class="text-muted text-uppercase"><small>Sales</small></p>
+										</div>
+										<div class="col-xs-6">
+											<span class="h4">$ 1,252</span>
+											<p class="text-muted text-uppercase"><small>Earning</small></p>
+										</div>
+									</div>
+
 
 									<hr>
 
@@ -709,14 +846,14 @@
 										<a href="#" class="list-group-item">Email</a>
 										<a href="#" class="list-group-item"><span class="label label-success pull-right">New</span>Chat</a>
 										<a href="#" class="list-group-item">Reports</a>
-										
+										<a href="#" class="list-group-item">Transfer Funds</a>
 									</div>
 
 
 									<hr>
 
 									<div class="text-center">Questions?
-										<p class="text-lg text-semibold"> (999) 999-9999 </p>
+										<p class="text-lg text-semibold"> (415) 234-53454 </p>
 										<small><em>We are here 24/7</em></small>
 									</div>
 								</div>
@@ -846,19 +983,7 @@
 
 			<!-- Visible when footer positions are static -->
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-			<div class="hide-fixed pull-right pad-rgt "> <a href="https://help.export.gov/ics/support/ticketnewwizard.asp?style=classic&amp;feedback=true">Submit Feedback</a>&nbsp;| 
-		<a href="/contactus">Contact Us</a>&nbsp;| 
-		<a href="/privacy-policy">Privacy Policy</a>&nbsp;| 
-		<a href="/disclaimer">Disclaimer</a>&nbsp;| 
-		<a href="/about">About Us</a>&nbsp;| 
-		<a href="http://www.usa.gov">USA.gov</a>&nbsp;|
-		<!-- &nbsp;| -->
-		<a href="http://www.osec.doc.gov/omo/FOIA/FOIAWEBSITE.htm">FOIA</a>&nbsp;| 
-		<a href="http://ocio.os.doc.gov/ITPolicyandPrograms/Information_Quality/index.htm">Information Quality</a>&nbsp;| 
-		<a href="http://www.osec.doc.gov/ocr/nofear/nofear.htm">No Fear</a>&nbsp;| 
-		<a href="/sitemap">Site Map</a>&nbsp;| 
-		<a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">Download Adobe Reader</a>
-  </p></div>
+			<div class="hide-fixed pull-right pad-rgt">2015</div>
 
 
 
@@ -866,7 +991,7 @@
 			<!-- Remove the class name "show-fixed" and "hide-fixed" to make the content always appears. -->
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-			
+			<p class="pad-lft">Export.gov is an official site of the U.S. Government</p>
 
 
 
@@ -889,6 +1014,7 @@
 
 	
 	
+
 
 	
 	<!--JAVASCRIPT-->
