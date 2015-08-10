@@ -244,30 +244,30 @@
         <div class="item active">
           <img class="first-slide" src="images/herobox1.jpg" alt="First slide" >
           <div class="container">
-            <div class="carousel-caption" style="top: auto; bottom: 40%; color: #FFF; width: 700px; text-shadow: 0;background-color: rgba(0,0,0,0.3); padding-left: 30px; padding-right: 30px;">
-              <h1 >LEARN ABOUT EXPORTING</h1>
-              <p >Learn about upcoming training opportunities, review the Basic Guide to Exporting, and connect with counselors who can answer your exporting questions.</p>
-              <p><a class="btn btn-lg btn-success" href="#" role="button">Learn</a></p>
+            <div class="carousel-caption" style="top: auto; bottom: 40%; color: #FFF; width: 700px; text-shadow: 0;background-color: rgba(0,0,0,0.5); padding-left: 30px; padding-right: 30px;">
+              <h1>A Basic Guide to Exporting</h1>
+              <p >Exporting for the first time?<p> 
+              <p>Exported before, but things have changed?</p>
+              <p>Need answers, but not sure how or where to get them?</p>
+              <p><a class="btn btn-lg btn-success" href="http://export.gov/basicguide/?utm_source=hero&utm_medium=exportgov&utm_content=icon&utm_campaign=basicguide" role="button">This is the book you need!</a></p>
             </div>
           </div>
         </div>
         <div class="item">
           <img class="second-slide" src="images/herobox2.jpg" alt="Second slide" >
           <div class="container">
-            <div class="carousel-caption" style="top: auto; bottom: 40%; color: #FFF; width: 700px; text-shadow: 0;background-color: rgba(0,0,0,0.3); padding-left: 30px; padding-right: 30px;">
-              <h1 class="text-danger">READY TO EXPORT</h1>
-              <p>You have an established business and your product or service is selling well. View information about potential markets and make your first international sale.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Start</a></p>
+            <div class="carousel-caption" style="top: auto; bottom: 40%; color: #FFF; width: 700px; text-shadow: 0;background-color: rgba(0,0,0,0.5); padding-left: 30px; padding-right: 30px;">
+              <h1 >Explore Top Markets for U.S. Industry Exports</h1>
+              <p><a class="btn btn-lg btn-primary" href="http://trade.gov/topmarkets/?utm_source=hero&utm_medium=exportgov&utm_campaign=topmarkets" role="button">A Market Assessment Tool for U.S. Exporters</a></p>
             </div>
           </div>
         </div>
         <div class="item">
           <img class="third-slide" src="images/herobox3.jpg" alt="Third slide" >
           <div class="container">
-                        <div class="carousel-caption" style="top: auto; bottom: 40%; color: #FFF; width: 700px; text-shadow: 0;background-color: rgba(0,0,0,0.3); padding-left: 30px; padding-right: 30px;">
-              <h1 class="text-success">EXPAND MY EXPORTS</h1>
-              <p  >Already exporting? Great! Grow your sales by expanding into new markets. Register/Login to Export.gov to receive personalized information on your markets.</p>
-              <p><a class="btn btn-lg btn-success" href="#" role="button">Expand</a></p>
+                        <div class="carousel-caption" style="top: auto; bottom: 40%; color: #FFF; width: 700px; text-shadow: 0;background-color: rgba(0,0,0,0.5); padding-left: 30px; padding-right: 30px;">
+              <h1>Cash Flow Strategies to Make Your Exports More Competitive</h1>
+              <p><a class="btn btn-lg btn-success" href="http://blog.trade.gov/2014/05/13/cash-flow-strategies-to-make-your-exports-more-competitive/" role="button">Expand</a></p>
             </div>
           </div>
         </div>
@@ -294,8 +294,8 @@
 					
 					<div class="col-lg-6 eq-box-lg">
 								<div class="panel">
-									<div class="panel-heading">
-										<h2 class="panel-title">Market Research - By Industry</h2>
+									<div class="panel-heading" id="taxonomy">
+										<h2 class="panel-title text-success">Market Research - By Industry</h2>
 									</div>
 									<div class="panel-body" id="results_container">
 					
@@ -303,6 +303,29 @@
 									</div>
 								</div>
 							</div>
+							
+							<div class="col-lg-6 eq-box-lg">
+								<div class="panel">
+									<div class="panel-heading" id="taxonomy">
+										<h2 class="panel-title text-primary"" >Latest Trade Articles</h2>
+									</div>
+									<div class="panel-body" id="results_container2">
+					
+					
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel">
+								<div>
+									<div class="panel-body" >
+					
+					<script type="text/javascript" src="http://output41.rssinclude.com/output?type=js&amp;id=1016027&amp;hash=22872b807466d1a3f41cde4277289606"></script>
+									</div>
+								</div>
+							</div>
+							
+							
 							
 							
 					
@@ -973,6 +996,32 @@
                                                                                                 }
                                                                                                 row = row + "</div>";
                                                                                                 $("#results_container").append(row);
+                                                                                                
+                                                                                }
+                                                                               
+                                                                });
+                                                }
+                                </script>
+                                
+                                
+                                <script>
+                                                $(document).ready(function() {
+                                                                get_results2();
+                                                });
+                                                function get_results2()
+                                                {
+                                                                $.getJSON('https://api.govwizely.com/v2/trade_articles/search?api_key=-DgaM8IefU4280JDV36SHZC1&size=5', function(d)
+                                                                {
+                                                                                $("#results_container2").empty();
+                                                                                for (x in d.results)
+                                                                                {
+                                                                                                row = '<p id="result_' + x + '"> <h4 class="result_seo_metadata_title text-thin">' + d.results[x].seo_metadata_title + '</h4><h5 class="result_creation_date">' + d.results[x].creation_date +  '</h5><p class="result_seo_metadata_description">' + d.results[x].seo_metadata_description + '</p>' + '<hr>'
+                                                                                                if (x < d.results.length-1)
+                                                                                                {
+                                                                                                                row = row ;
+                                                                                                }
+                                                                                                row = row + "</div>";
+                                                                                                $("#results_container2").append(row);
                                                                                                 
                                                                                 }
                                                                                

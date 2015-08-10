@@ -6407,7 +6407,7 @@ a.list-group-item-dark:hover,a.list-group-item-dark:focus {
 .panel-title {
     font-weight:300;
     padding:0 20px;
-    font-size:1.416em;
+    font-size:2em;
     line-height:50px;
     white-space:nowrap;
     overflow:hidden;
