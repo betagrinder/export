@@ -407,7 +407,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.dzen-tabs .ui-tabs-nav li.ui-tabs-active a{
-		color: #056ab2;
+		color: #3c763d;
 		cursor: default;
 	}
 
@@ -637,7 +637,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.dzen-accordion .ui-accordion-header-active { 
-		color:#056ab2;
+		color:#3c763d;
 	}
 
 	.dzen-accordion .ui-accordion-header:first-child{
@@ -730,7 +730,7 @@ Author URI: http://www.ab-themes.com
 
 	.dzen-table.dzen-table-alternative th{
 		color: #fff;
-		background: #056ab2;
+		background: #3c763d;
 	}
 
 	.dzen-table-condensed table{
@@ -925,7 +925,7 @@ Author URI: http://www.ab-themes.com
 
 /********** 2.13. Stats Excerpt *************************************************************/
 	.dzen_stats_excerpt{
-		color: #056ab2;
+		color: #3c763d;
 		text-align: center;
 		position: relative;
 		margin-bottom: 40px;
@@ -1044,7 +1044,7 @@ Author URI: http://www.ab-themes.com
 		left: 0; 
 		filter: alpha(opacity=0); 
 		opacity: 0; 
-		background:#056ab2; 	
+		background:#3c763d; 	
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
 		border-radius: 50%;
@@ -1168,7 +1168,7 @@ Author URI: http://www.ab-themes.com
 		height: 57px;
 		text-align: center;
 		color: #fff;
-		background: #056ab2;
+		background: #3c763d;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
@@ -1206,7 +1206,7 @@ Author URI: http://www.ab-themes.com
 
 	.dzen_pricing-table-1 .dzen_pricebox_header{
 		background: #cee6e6;
-		color: #056ab2;
+		color: #3c763d;
 		text-align: center;
 		padding: 35px 0 45px 0;
 		margin-bottom: 20px;
@@ -1279,7 +1279,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.dzen_pricing-table-2 .dzen_popular-plan .dzen_pricebox_header{
-		background: #056ab2;
+		background: #3c763d;
 	}
 
 	.dzen_pricing-table-2 .dzen_pricebox_name{
@@ -1382,7 +1382,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.dzen_meter .dzen_meter_dark_blue{
-		background: #056AB2;
+		background: #3c763d;
 	}
 
 	.dzen_meter .dzen_meter_green{
@@ -1440,20 +1440,20 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.dzen_service_box .dzen_icon_boxed i{
-		color: #056ab2;
+		color: #3c763d;
 	}
 
 	.dzen_service_box:hover .dzen_icon_boxed{
-		background: #056ab2;
+		background: #3c763d;
 	}
 
 	.dzen_service_box.dzen_service_box_round_stroke .dzen_icon_boxed{
 		background: none;
-		border: 3px solid #056ab2;
+		border: 3px solid #3c763d;
 	}
 
 	.dzen_service_box.dzen_service_box_round_stroke .dzen_icon_boxed i{
-		color: #056ab2;
+		color: #3c763d;
 	}
 
 	.dzen_service_box.dzen_service_box_round_aside{
@@ -1476,11 +1476,11 @@ Author URI: http://www.ab-themes.com
 	.dzen_service_box.dzen_service_box_round_aside .dzen_icon_boxed i{
 		line-height: 54px;
 		font-size: 24px;
-		color: #056ab2;
+		color: #3c763d;
 	}
 
 	.dzen_service_box.dzen_service_box_round_aside:hover .dzen_icon_boxed{
-		background: #056ab2;
+		background: #3c763d;
 	}
 
 	.dzen_service_box_square .dzen_icon_boxed{
@@ -1501,7 +1501,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.dzen_service_box .dzen_icon_boxed:hover:after{
-		border-top: 9px solid #056ab2;
+		border-top: 9px solid #3c763d;
 		transition: all 180ms ease-in;
 		-webkit-transition: all 180ms ease-in;
 	}
@@ -1671,11 +1671,11 @@ Author URI: http://www.ab-themes.com
 
 /********** 2.32. Callout Boxes *************************************************************/
 	.callout_box_section{
-		background: #056ab2;
+		background: #3c763d;
 	}
 
 	.callout_box_blue{
-		background: #056ab2;
+		background: #3c763d;
 	}
 
 	.dzen-callout_box{
@@ -1762,8 +1762,8 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.dzen-button_blue{
-		background: #056ab2;
-		border: 1px solid #056ab2;
+		background: #3c763d;
+		border: 1px solid #3c763d;
 		color: #fff !important;
 	}
 
@@ -1792,8 +1792,8 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.dzen-button_dark:hover{
-		background: #056ab2;
-		border: 1px solid #056ab2;
+		background: #3c763d;
+		border: 1px solid #3c763d;
 		color: #fff !important;
 	}
 
@@ -1917,7 +1917,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	a:hover{
-		color: #056ab2;
+		color: #3c763d;
 		transition: all 180ms ease-in;
 		-webkit-transition: all 180ms ease-in;
 	}
@@ -2034,8 +2034,8 @@ Author URI: http://www.ab-themes.com
 		padding: 10px 20px;
 		display: inline-block;
 		cursor: pointer;
-		border: 1px solid #056ab2;
-		background: #056ab2;
+		border: 1px solid #3c763d;
+		background: #3c763d;
 		color: #fff;
 		margin-bottom: 20px;
 		line-height: 20px;
@@ -2088,7 +2088,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.color_highlight{
-		color: #056ab2;
+		color: #3c763d;
 	}
 
 	.bold{
@@ -2098,11 +2098,11 @@ Author URI: http://www.ab-themes.com
 	.dzen_dropcap{
 		position: relative;
 		top: 6px;
-		background: #056ab2;
+		background: #3c763d;
 	}
 
 	.section_color_background{
-		background: #056ab2;
+		background: #3c763d;
 		margin-bottom: 0;
 	}
 
@@ -2117,7 +2117,7 @@ Author URI: http://www.ab-themes.com
 		bottom: -40px;
 		width: 70px;
 		height: 5px;
-		background: #056ab2;
+		background: #3c763d;
 	}
 
 	.center_aligned.leading_line:after{
@@ -2348,7 +2348,7 @@ Author URI: http://www.ab-themes.com
 /*-----------------------------------------------------------------*/
 	#dz_main_header{
 		width: 100%;
-		background: #fff;
+		background: #585858;
 		padding: 30px 0px;
 		box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.2);
 		z-index: 9999;
@@ -2402,12 +2402,12 @@ Author URI: http://www.ab-themes.com
 	}
 
 	nav > ul > li > a{
-		margin-left: 20px;
-		font-size: 14px
+		margin-left: 15px;
+		font-size: 12px
 	}
 
 	nav > ul > li a:hover{
-		color: #505558;
+		color: #fff;
 	}
 
 	nav > ul > li span{
@@ -2587,7 +2587,7 @@ Author URI: http://www.ab-themes.com
 
 	.tp-leftarrow.default:hover,
 	.tp-rightarrow.default:hover {
-		background: #056ab2 !important;
+		background: #3c763d !important;
 	}
 
 	.tp-leftarrow.default:before,
@@ -2628,7 +2628,7 @@ Author URI: http://www.ab-themes.com
 
 	.tp-bullets.simplebullets.round .bullet:hover,
 	.tp-bullets.simplebullets.round .bullet.selected{	
-		background-color:#056ab2;
+		background-color:#3c763d;
 	}
 
 	.tp-caption.dzen_title{
@@ -2659,7 +2659,7 @@ Author URI: http://www.ab-themes.com
 	.tp-caption.dzen_button{
 		position:absolute;
 		color:#fff;
-		background:#056ab2;
+		background:#3c763d;
 		font-weight:300;
 		font-size:20px;
 		line-height:20px;
@@ -2690,7 +2690,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.process_section .dzen_service_box .dzen_icon_boxed{
-		background: #056ab2;
+		background: #3c763d;
 		width: 100px;
 		height: 100px;
 	}
@@ -2847,7 +2847,7 @@ Author URI: http://www.ab-themes.com
 		margin-top: -28px;
 		width: 13px; 
 		height: 13px;
-		background: #056ab2;
+		background: #3c763d;
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
 		border-radius: 50%;
@@ -2988,7 +2988,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.post_meta_tags a:hover{
-		color: #056ab2;
+		color: #3c763d;
 	}
 
 	.post_meta_tags i{
@@ -3108,7 +3108,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.more-link{
-		color: #056ab2;
+		color: #3c763d;
 		font-size: 14px;
 		margin-bottom: 0px;
 		display: inline-block;
@@ -3202,7 +3202,7 @@ Author URI: http://www.ab-themes.com
 	.comment .edit-link,
 	.comment .reply a,
 	.comment .edit-link a{
-		color: #056ab2;
+		color: #3c763d;
 		font-size: 14px;
 	}
 
@@ -3213,7 +3213,7 @@ Author URI: http://www.ab-themes.com
 
 	.comment .reply a:hover,
 	.comment .edit-link a:hover{
-		color: #056ab2;
+		color: #3c763d;
 	}
 
 	.comment .reply:before,
@@ -3255,7 +3255,7 @@ Author URI: http://www.ab-themes.com
 
 	#respond #comment-submit{
 		-webkit-appearance: none;
-		background: #056ab2;
+		background: #3c763d;
 		margin: 0;
 		font-weight: 300;
 		font-family: Roboto;
@@ -3284,7 +3284,7 @@ Author URI: http://www.ab-themes.com
 	#single_post_pagination .prev a,
 	#single_post_pagination .next a{
 		color: #fff;
-		background: #056ab2;
+		background: #3c763d;
 		font-family: Roboto;
 		font-weight: 300;
 		text-transform: uppercase;
@@ -3389,7 +3389,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	#inner_post_pagination a span{
-		background: #056ab2;
+		background: #3c763d;
 	}
 
 
@@ -3425,7 +3425,7 @@ Author URI: http://www.ab-themes.com
 		text-decoration: none;
 		display: inline-block;
 		border: none !important;
-		background: #056ab2;
+		background: #3c763d;
 		color: #fff;
 		padding: 15px 30px !important;
 		margin-right: 10px;
@@ -3448,7 +3448,7 @@ Author URI: http://www.ab-themes.com
 	#dz_contact_form_submit{
 		-webkit-appearance: none;
 		width: 100%;
-		background: #056ab2 !important;
+		background: #3c763d !important;
 		height: 55px;
 		margin-top: 0;
 		-webkit-border-radius: 2px !important;
@@ -3605,7 +3605,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	aside .widget a:hover{
-		color: #056ab2;
+		color: #3c763d;
 	}
 
 	.widget ul{
@@ -3735,7 +3735,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.tagcloud a:hover{
-		background: #056ab2;
+		background: #3c763d;
 		color: #fff !important;
 	}
 
@@ -3933,7 +3933,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.portfolio_item h4 a:hover{
-		color: #056ab2;
+		color: #3c763d;
 	}
 
 	.portfolio_item .overlayed .overlay {
@@ -4046,7 +4046,7 @@ Author URI: http://www.ab-themes.com
 
 	.portfolio_item_view_link a{
 		display: inline-block;
-		background: #056ab2;
+		background: #3c763d;
 		color: #fff;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
@@ -4266,7 +4266,7 @@ Author URI: http://www.ab-themes.com
 		line-height: 410px;
 		font-family: Roboto;
 		font-weight: 300;
-		color: #056ab2;
+		color: #3c763d;
 	}
 
 
@@ -4522,7 +4522,7 @@ Author URI: http://www.ab-themes.com
 			display: block;
 			width: 32px;
 			height: 32px;
-			color: #056ab2;
+			color: #3c763d;
 			position: absolute;
 			right: 0;
 			top: 10px;
