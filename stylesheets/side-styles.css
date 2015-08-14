@@ -4,7 +4,7 @@ html,body {
 }
 
 body {
-    background-color:#e7ebee;
+    background-color:#fff;
     font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size:12px;
     color:#515151;
@@ -66,6 +66,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     -webkit-transition:opacity .5s linear 1.5s;
     transition:opacity .5s linear 1.5s
 }
+
+.navbar-form{margin:12px 0}.fade .navbar-form .form-control{-webkit-animation:none}.navbar-form .form-control{width:200px;padding:5px 15px;height:30px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}.navbar-form .form-control:focus{width:300px;animation:expand .2s;-webkit-animation:expand .2s}@keyframes expand{from{width:200px}to{width:300px}}@-webkit-keyframes expand{from{width:200px}to{width:300px}}.navbar-form .btn-search{position:absolute;right:15px;top:12px;height:30px;padding-top:5px;padding-bottom:5px;border:none;background:0 0;-webkit-border-radius:0 30px 30px 0;-moz-border-radius:0 30px 30px 0;border-radius:0 30px 30px 0}
+
+.navbar-form{margin:0;padding:12px 10px;border:none;-webkit-box-shadow:none;box-shadow:none}.navbar-form .btn-search{right:10px}.navbar-form .form-group{margin:0}.navbar-form .form-control,.navbar-form .form-control:focus{margin:0;width:200px!important;-webkit-animation:none!important;animation:none!important}
+
+@media (max-width:380px){.navbar-form .form-control,.navbar-form .form-control:focus{width:160px!important}}@media (max-width:340px){.navbar-form .form-control,.navbar-form .form-control:focus{width:140px!important}}
 
 #container.boxed-layout {
     background-color:#cfd3d6
@@ -648,7 +654,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #container.navbar-fixed>#navbar {
-    position:fixed
+    position:defult
 }
 
 #container.navbar-fixed>#navbar .shadow {
