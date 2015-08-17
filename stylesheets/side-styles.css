@@ -56,15 +56,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     overflow:hidden;
     opacity:0;
     visibility:hidden;
-    -webkit-transition:opacity .5s linear 1s;
-    transition:opacity .5s linear 1s
 }
 
 .nifty-ready #container {
     opacity:1;
     visibility:visible;
-    -webkit-transition:opacity .5s linear 1.5s;
-    transition:opacity .5s linear 1.5s
 }
 
 .navbar-form{margin:12px 0}.fade .navbar-form .form-control{-webkit-animation:none}.navbar-form .form-control{width:200px;padding:5px 15px;height:30px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}.navbar-form .form-control:focus{width:300px;animation:expand .2s;-webkit-animation:expand .2s}@keyframes expand{from{width:200px}to{width:300px}}@-webkit-keyframes expand{from{width:200px}to{width:300px}}.navbar-form .btn-search{position:absolute;right:15px;top:12px;height:30px;padding-top:5px;padding-bottom:5px;border:none;background:0 0;-webkit-border-radius:0 30px 30px 0;-moz-border-radius:0 30px 30px 0;border-radius:0 30px 30px 0}

@@ -340,22 +340,26 @@
 									<!--Menu list item-->
 									<li>
 										<a href="#">
-											<i class="fa fa-search-plus text-success"></i>
+											<i class="fa fa-wrench text-success"></i>
 											<span class="menu-title">
 												<strong>MARKET RESEARCH</strong>
 											</span>
 											<i class="arrow"></i>
 										</a>
-						
+
 										<!--Submenu-->
 										<ul class="collapse">
-											
-											<li id="results_container"><a href="#">By Industry<i class="arrow"></i></a>
+											<li>
+												<a href="#">By Industry<i class="arrow"></i></a>
 
+												<!--Submenu-->
+												<ul class="collapse" id="results_container">
+											
+												</ul>
 											</li>
-										
 											<li><a href="#">By Country and Region</a></li>
 											<li><a href="#">Economic Data</a></li>
+											<li><a href="#">Reports</a></li>
 										</ul>
 									</li>
 									
@@ -921,12 +925,12 @@
                                                                                 $("#results_container").empty();
                                                                                 for (x in d.results)
                                                                                 {
-                                                                                                row = '<ul class="collapse" id="result_' + x + '"> <li class="result_name"><a href="#">' + d.results[x].name + '</a></li>
+                                                                                                row = '<li id="result_' + x + '"> <a class="result_parent_names"><a href="#">' + d.results[x].parent_names + '</a>'
                                                                                                 if (x < d.results.length-1)
                                                                                                 {
                                                                                                                 row = row ;
                                                                                                 }
-                                                                                                row = row + "</ul>";
+                                                                                                row = row + "</li>";
                                                                                                 $("#results_container").append(row);
                                                                                                 
                                                                                 }
