@@ -44,16 +44,16 @@ a:hover,a:focus {
 }
 
 .navbar-header {
-    background-color:#fff
+    background-color:#f1f1f1
 }
 
 .navbar-content {
-    background-color:#fff;
+    background-color:#f1f1f1;
     box-shadow:inset -4px 0 0 0 #5fa2dd
 }
 
 .navbar-brand {
-    background-color:transparent;
+    background-color:#f1f1f1;
     color:#515151
 }
 
@@ -89,19 +89,19 @@ a:hover,a:focus {
 
 @media (min-width:768px) {
 #navbar {
-    background-color:transparent
+    background-color:#f1f1f1
 }
 
 .navbar-header {
-    background-color:transparent
+    background-color:#f1f1f1
 }
 
 .navbar-header:before {
-    background-color:#fff
+    background-color:#f1f1f1
 }
 
 #navbar-container {
-    background-color:#fff
+    background-color:#f1f1f1
 }
 
 #container.mainnav-in .brand-title,#container.mainnav-sm .brand-title,#container.mainnav-lg .brand-title {
