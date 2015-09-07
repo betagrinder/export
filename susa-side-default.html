@@ -144,70 +144,47 @@
 			<!--===================================================-->
 			<div id="content-container">
 				
-				
+			<div id="page-content">
 
-<!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="images/ny.jpg" alt="First slide" >
-          <div class="container">
-            <div class="carousel-caption" style="top: auto; bottom: 40%; color: #FFF; width: 700px; text-shadow: 0;background-color: rgba(0,0,0,0.5); padding-left: 30px; padding-right: 30px;">
-              <h1>Why Select the USA?</h1>
-              <p >Learn why the U.S. is the world’s top location for business and investment.<p> 
-            
-              <p><a class="btn btn-lg btn-danger" href="http://export.gov/basicguide/?utm_source=hero&utm_medium=exportgov&utm_content=icon&utm_campaign=basicguide" role="button">FIND OUT MORE</a></p>
-            </div>
-          </div>
-        </div>
-        <!--<div class="item">
-          <img class="second-slide" src="images/herobox2.jpg" alt="Second slide" >
-          <div class="container">
-            <div class="carousel-caption" style="top: auto; bottom: 40%; color: #FFF; width: 700px; text-shadow: 0;background-color: rgba(0,0,0,0.5); padding-left: 30px; padding-right: 30px;">
-              <h1 >Federal Programs and Incentives for Business</h1>
-              <p >Programs and incentives to help your business succeed.<p> 
-              <p><a class="btn btn-lg btn-primary" href="http://trade.gov/topmarkets/?utm_source=hero&utm_medium=exportgov&utm_campaign=topmarkets" role="button">FIND OUT MORE</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="images/herobox3.jpg" alt="Third slide" >
-          <div class="container">
-                        <div class="carousel-caption" style="top: auto; bottom: 40%; color: #FFF; width: 700px; text-shadow: 0;background-color: rgba(0,0,0,0.5); padding-left: 30px; padding-right: 30px;">
-              <h1>They Chose the USA</h1>
-              <p>Learn why different businesses are choosing America to expand and invest.</p>
-              <p><a class="btn btn-lg btn-danger" href="http://blog.trade.gov/2014/05/13/cash-flow-strategies-to-make-your-exports-more-competitive/" role="button">HEAR THEIR STORIES</a></p>
-            </div>
-          </div>
-        </div>-->
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span  aria-hidden="true"><i class="fa fa-angle-left fa-5x"></i></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span aria-hidden="true"><i class="fa fa-angle-right fa-5x"></i></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
-		
+			
+			
+			
+			
+			<div class="row">
+			
+			<div class="col-md-8">
+			<h1>Latest Trade Articles</h1></br>
+			<div id="results_container2"></div>
+			</div>
+			
+			<div class="col-md-3 pull-right">
+			<div class="panel panel-bordered-info">
+			<div class="panel-heading"></div>
+			<h2 class="panel-title">Side bar</h2>
+			<div class="panel-body">Hello now this Lorem ipsum dolor sit amet laudantium molestias similique. Quisquam incidunt ut laboriosam.laudantium molestias similique. Quisquam incidunt ut laboriosam. laudantium molestias similique. Quisquam incidunt ut laboriosam. Hello now this Lorem ipsum dolor sit amet laudantium molestias similique. Quisquam incidunt ut laboriosam.laudantium molestias similique. Quisquam incidunt ut laboriosam. laudantium molestias similique. Quisquam incidunt ut laboriosam. Quisquam incidunt ut laboriosam.laudantium molestias similique. Quisquam incidunt ut laboriosam. laudantium molestias similique. Quisquam incidunt ut laboriosam. Hello now this Lorem ipsum dolor sit amet laudantium molestias similique. Quisquam incidunt ut laboriosam.laudantium molestias similique. Quisquam incidunt ut laboriosam. laudantium molestias similique. Quisquam incidunt ut laboriosam.
 
-				
-					
+Last Published Date	8/28/2015 11:16 AM
+
+
+
+<div>
+
+			</div>
+						</div>
+			
+			</div>
+			
+			
+			
+			
+			
 					
 					
 				
 				<!--===================================================-->
 				<!--End page content-->
 
-
+			</div>
 			</div>
 			<!--===================================================-->
 			<!--END CONTENT CONTAINER-->
@@ -872,41 +849,16 @@
 
 <script>
                                                 $(document).ready(function() {
-                                                                get_results();
-                                                });
-                                                function get_results()
-                                                {
-                                                                $.getJSON('https://api.govwizely.com/v2/ita_taxonomies/search?api_key=-DgaM8IefU4280JDV36SHZC1&size=100', function(d)
-                                                                {
-                                                                                $("#results_container").empty();
-                                                                                for (x in d.results)
-                                                                                {
-                                                                                                row = '<li id="result_' + x + '"> <a class="result_parent_names"><a href="#">' + d.results[x].parent_names + '</a>'
-                                                                                                if (x < d.results.length-1)
-                                                                                                {
-                                                                                                                row = row ;
-                                                                                                }
-                                                                                                row = row + "</li>";
-                                                                                                $("#results_container").append(row);
-                                                                                                
-                                                                                }
-                                                                               
-                                                                });
-                                                }
-                                </script>
-                                
-                                <script>
-                                                $(document).ready(function() {
                                                                 get_results2();
                                                 });
                                                 function get_results2()
                                                 {
-                                                                $.getJSON('https://api.govwizely.com/v2/trade_articles/search?api_key=-DgaM8IefU4280JDV36SHZC1&size=5', function(d)
+                                                                $.getJSON('https://api.govwizely.com/v2/trade_articles/search?api_key=-DgaM8IefU4280JDV36SHZC1&size=2', function(d)
                                                                 {
                                                                                 $("#results_container2").empty();
                                                                                 for (x in d.results)
                                                                                 {
-                                                                                                row = '<p id="result_' + x + '"> <h4 class="result_seo_metadata_title text-thin">' + d.results[x].seo_metadata_title + '</h4><h5 class="result_creation_date">' + d.results[x].creation_date +  '</h5><p class="result_seo_metadata_description">' + d.results[x].seo_metadata_description + '</p>' + '<hr>'
+                                                                                                row = '<p id="result_' + x + '"> <h3 class="result_seo_metadata_title text-thin text-danger">' + d.results[x].seo_metadata_title + '</h3><h5 class="result_creation_date">' + d.results[x].creation_date +  '</h5><p class="result_content">' + d.results[x].content + '</p>' + '<button class="result_seo_metadata_keyword btn btn-default btn-rounded">' + d.results[x].seo_metadata_keyword +  '</button>' + '<hr>'
                                                                                                 if (x < d.results.length-1)
                                                                                                 {
                                                                                                                 row = row ;

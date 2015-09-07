@@ -13,7 +13,7 @@ body {
 }
 
 h1,.h1 {
-    font-size:34px
+    font-size:42px
 }
 
 h2,.h2 {
@@ -667,8 +667,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 
 #mainnav-container {
     position:absolute;
-    width:265px;
-    left:-265px;
+    width:230px;
+    left:-230px;
     padding-top:50px;
     top:0;
     bottom:0;
@@ -957,7 +957,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #container.mainnav-lg #footer,#container.mainnav-lg #content-container {
-    padding-left:265px
+    padding-left:230px
 }
 }
 
