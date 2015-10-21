@@ -2272,6 +2272,10 @@ fieldset[disabled] .btn-default {
 	border: none;
 }
 
+.susa-foot {
+width:14%;
+}
+
 /* Links
 ---------------------------------- */
 .link {
