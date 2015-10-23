@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="javascripts/pure.js"></script>
-</head>	
+</head>
 
-<body>  
+<body>
 
 <div class="articles">
 <dl class="article">
@@ -15,7 +15,7 @@
 	<dt>Name</dt>
     <dd class="name"></dd>
     <dt>Taxonomy</dt>
-    <dd class="taxonomy"></dd>         
+    <dd class="taxonomy"></dd>
 </dl>
 </div>
 
@@ -30,7 +30,7 @@
         'article <- articles': {
           '.name': 'article.name',
           '.taxonomy': 'article.taxonomy',
-          
+
         }
       }
     };
@@ -40,7 +40,7 @@
 
   ready = function() {
     var url;
-    url = 'https://api.govwizely.com/v2/ita_taxonomies/search?api_key=-DgaM8IefU4280JDV36SHZC1&callback=?';
+    url = 'https://api.govwizely.com/ita_taxonomies/search?api_key=-DgaM8IefU4280JDV36SHZC1&callback=?';
     return $.getJSON(url, renderData);
   };
 
