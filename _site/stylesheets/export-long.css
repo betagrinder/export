@@ -511,11 +511,15 @@ tbody {
 	border-bottom: 1px solid #d1d1d1;
 	position: relative;
 }
+
+.footer2 {
+color:#767676;
+}
 .footer-top.light-gray-bg + .light .footer {
 	border-top: 1px solid #f1f1f1;
 }
 .light .subfooter {
-	background-color: #e7e7e7;
+	background-color: #CBD1D7;
 }
 .white-bg {
 	background-color: #ffffff !important;
@@ -2922,7 +2926,7 @@ ul.pagination li > a:focus {
 	right: 10px;
 }
 .footer-content .nav-pills > li > a {
-	padding: 4px 0px;
+	padding: 0px 0px;
 	border-color: transparent;
 	color: #999;
 	font-weight: 400;
@@ -3933,8 +3937,9 @@ a.overlay.small i {
 
 	/* first level items */
 	.navbar-default .navbar-nav > li > a {
-	background:#32404e;
+	background:#CBD1D7;
 		border-bottom: 1px solid #f1f1f1;
+		color:#666666;
 	}
 	.subfooter .navbar-default .navbar-nav > li > a {
 		border-bottom: 1px solid #141414;
@@ -4383,9 +4388,10 @@ a.overlay.small i {
 	margin: 0 auto;
 }
 .site-slogan {
-	font-size: 13px;
+	font-size:11px;
 	font-style: italic;
-	color: #999999;
+	color:#fff;
+	text-indent: 5px;
 }
 .transparent.header:not(.dark) .site-slogan {
 	color: #333333;
