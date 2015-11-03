@@ -2924,7 +2924,7 @@ ul.pagination li > a:focus {
 	right: 10px;
 }
 .footer-content .nav-pills > li > a {
-	padding: 4px 0px;
+	padding: 0px 0px;
 	border-color: transparent;
 	color: #999;
 	font-weight: 400;

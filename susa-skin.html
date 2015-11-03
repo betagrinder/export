@@ -1,14 +1,18 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if !IE]><!-->
+<!DOCTYPE html>
 <html lang="en">
 <!--<![endif]-->
 	<head>
-		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title>SelectUSA.gov</title>
-
-		<!-- Mobile Meta -->
+    <meta name="description" content="Selectusa.gov is an official site of the U.S. Government." />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="MobileOptimized" content="width" />
+		<meta name="HandheldFriendly" content="true" />
 
 		<!-- Bootstrap core CSS -->
 		<link href="stylesheets/bootstrap.css" rel="stylesheet">
@@ -50,27 +54,25 @@
 							<!-- ================ -->
 							<div class="header-top-first clearfix">
 								<ul class="social-links clearfix hidden-xs">
-									<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-									<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-									<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-									<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
-									<li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
-									<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-									<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+									<li class="twitter"><a target="_blank" href="http://www.twitter.com" alt="twitter"><i class="fa fa-twitter"></i></a></li>
+									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com" alt="linkedin"><i class="fa fa-linkedin"></i></a></li>
+									<li class="googleplus"><a target="_blank" href="http://plus.google.com" alt="googleplus"><i class="fa fa-google-plus"></i></a></li>
+									<li class="youtube"><a target="_blank" href="http://www.youtube.com" alt="youtube"><i class="fa fa-youtube-play"></i></a></li>
+									<li class="flickr"><a target="_blank" href="http://www.flickr.com" alt="flickr"><i class="fa fa-flickr"></i></a></li>
+									<li class="facebook"><a target="_blank" href="http://www.facebook.com" alt="facebook"><i class="fa fa-facebook"></i></a></li>
+									<li class="pinterest"><a target="_blank" href="http://www.pinterest.com" alt="pintrest"><i class="fa fa-pinterest"></i></a></li>
 								</ul>
 								<div class="social-links hidden-lg hidden-md hidden-sm">
 									<div class="btn-group dropdown">
 										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
 										<ul class="dropdown-menu dropdown-animation">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-											<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-											<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
-											<li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-											<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com" alt="twitter"><i class="fa fa-twitter"></i></a></li>
+											<li class="linkedin"><a target="_blank" href="http://www.linkedin.com" alt="linkedin"><i class="fa fa-linkedin"></i></a></li>
+											<li class="googleplus"><a target="_blank" href="http://plus.google.com" alt="googleplus"><i class="fa fa-google-plus"></i></a></li>
+											<li class="youtube"><a target="_blank" href="http://www.youtube.com" alt="youtube"><i class="fa fa-youtube-play"></i></a></li>
+											<li class="flickr"><a target="_blank" href="http://www.flickr.com" alt="flickr"><i class="fa fa-flickr"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com" alt="facebook"><i class="fa fa-facebook"></i></a></li>
+											<li class="pinterest"><a target="_blank" href="http://www.pinterest.com" alt="pintrest"><i class="fa fa-pinterest"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -93,7 +95,7 @@
 											<li>
 												<form role="search" class="search-box">
 													<div class="form-group has-feedback">
-														<input type="text" class="form-control" placeholder="Search">
+														<input type="text" class="form-control" placeholder="Enter search text">
 														<i class="fa fa-search form-control-feedback"></i>
 													</div>
 												</form>
@@ -102,7 +104,7 @@
 									</div>
 									<div class="btn-group dropdown">
 										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login</button>
-										<ul class="dropdown-menu dropdown-menu-right dropdown-animation">
+										<!--<ul class="dropdown-menu dropdown-menu-right dropdown-animation">
 											<li>
 												<form class="login-form">
 													<div class="form-group has-feedback">
@@ -117,21 +119,14 @@
 													</div>
 													<button type="submit" class="btn btn-group btn-dark btn-sm">Log In</button>
 													<span>or</span>
-													<button type="submit" class="btn btn-group btn-default btn-sm">Register</button>
+													<button type="submit" class="btn btn-group btn-default btn-sm" >Register</button>
 
 													<ul>
-														<li><a href="#">Forgot your password?</a></li>
-													</ul>
-													<div class="divider"></div>
-													<span class="text-center">Login with</span>
-													<ul class="social-links clearfix">
-														<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-														<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-														<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+														<li><a href="#" alt="forget your password">Forgot your password?</a></li>
 													</ul>
 												</form>
 											</li>
-										</ul>
+										</ul>-->
 									</div>
 									<div class="btn-group dropdown">
 										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-plus-square"></i> Register</button>
@@ -163,7 +158,7 @@
 
 								<!-- logo -->
 								<div class="logo">
-									<a href="index.html"><img id="logo" src="images/SelectUSA-Logo-hr.png" width="250" alt="logo"></a>
+									<a href="index.html" alt="home"><img id="logo" src="images/SelectUSA-Logo-hr.png" width="250" alt="logo"></a>
 								</div>
 
 
@@ -202,20 +197,20 @@
 												<ul class="nav navbar-nav navbar-right">
 
 													<li class="dropdown">
-														<a href="#" class="dropdown-toggle" data-toggle="dropdown">Why Invest</a>
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" alt="Why Invest">Why Invest</a>
 														<ul class="dropdown-menu">
-															<li><a href="#">World’s Largest Market</a></li>
-															<li><a href="#">Land of Resources</a></li>
-															<li><a href="#">Nexus of Innovation</a></li>
-															<li><a href="#">Workforce Talent</a></li>
-															<li><a href="#">Ease of Doing Business</a></li>
-															<li><a href="#">Sector Spotlights</a></li>
+															<li><a href="#" alt="World’s Largest Market">World’s Largest Market</a></li>
+															<li><a href="#" alt="Land of Resources">Land of Resources</a></li>
+															<li><a href="#" alt="Nexus of Innovation">Nexus of Innovation</a></li>
+															<li><a href="#" alt="Workforce Talent">Workforce Talent</a></li>
+															<li><a href="#" alt="Ease of Doing Business">Ease of Doing Business</a></li>
+															<li><a href="#" alt="Sector Spotlights">Sector Spotlights</a></li>
 														</ul>
 													</li>
 
 													<!-- mega-menu start -->
 													<li class="dropdown mega-menu">
-														<a href="#" class="dropdown-toggle" data-toggle="dropdown">How to Invest</a>
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" alt="How to Invest">How to Invest</a>
 														<ul class="dropdown-menu">
 															<li>
 																<div class="row">
@@ -227,45 +222,45 @@
 																			<div class="col-sm-4">
 
 																				<ul class="menu">
-																					<li><a href="#"><strong>The Basics</strong></a></li>
-																					<li><a href="#">Establishing Your Business</a></li>
-																					<li><a href="#">Visas</a></li>
+																					<li><a href="#" alt="The Basics"><strong>The Basics</strong></a></li>
+																					<li><a href="#" alt="Establishing Your Business">Establishing Your Business</a></li>
+																					<li><a href="#" alt="Visas">Visas</a></li>
 																				</ul>
 																			</div>
 																			<div class="col-sm-4">
 
 																				<ul class="menu">
-																					<li><a href="#"><strong>Cross-Sector Activities</strong></a></li>
-																					<li><a href="#">Supply Chain</a></li>
-													<li><a href="#">Exporting</a></li>
-																					<li><a href="#">Advanced Manufacturing</a></li>
-																					<li><a href="#">Research</a></li>
-																					<li><a href="#">IP and Patents</a></li>
-																					<li><a href="#">Small Businesses and Startups</a></li>
-																					<li><a href="#">Workforce Development</a></li>
-																					<li><a href="#">Infrastructure</a></li>
-																					<li><a href="#">Environmental Integrity</a></li>
+																					<li><a href="#" alt="Cross-Sector Activities"><strong>Cross-Sector Activities</strong></a></li>
+																					<li><a href="#" alt="Supply Chain">Supply Chain</a></li>
+													                <li><a href="#" alt="Exporting">Exporting</a></li>
+																					<li><a href="#" alt="Advanced Manufacturing">Advanced Manufacturing</a></li>
+																					<li><a href="#" alt="Research">Research</a></li>
+																					<li><a href="#" alt="IP and Patents">IP and Patents</a></li>
+																					<li><a href="#" alt="Small Businesses and Startups">Small Businesses and Startups</a></li>
+																					<li><a href="#" alt="Workforce Development">Workforce Development</a></li>
+																					<li><a href="#" alt="Infrastructure">Infrastructure</a></li>
+																					<li><a href="#" alt="Environmental Integrity">Environmental Integrity</a></li>
 																				</ul>
 																			</div>
 																			<div class="col-sm-4">
 
 																				<ul class="menu">
-																					<li><a href="#"><strong>Choose Your Location</strong></a></li>
-																					<li><a href="#">State Incentives</a></li>
-													<li><a href="#">Rural America</a></li>
-													<li><a href="#">State and Local Contacts</a></li>
+																					<li><a href="#" alt="Choose Your Location"><strong>Choose Your Location</strong></a></li>
+																					<li><a href="#" alt="State Incentives">State Incentives</a></li>
+													                <li><a href="#" alt="Rural America">Rural America</a></li>
+													                <li><a href="#" alt="State and Local Contacts">State and Local Contacts</a></li>
 																				</ul>
 																			</div>
 																			<div class="col-sm-4">
 																				<div class="divider"></div>
 																				<ul class="menu">
-																					<li><a href="#"><strong>Programs and Incentives</strong></a></li>
+																					<li><a href="#" alt="Programs and Incentives"><strong>Programs and Incentives</strong></a></li>
 																				</ul>
 																			</div>
 																			<div class="col-sm-4">
 																				<div class="divider"></div>
 																				<ul class="menu">
-																					<li><a href="#"><strong>Tools and Resources</strong></a></li>
+																					<li><a href="#" alt="Tools and Resources"><strong>Tools and Resources</strong></a></li>
 																				</ul>
 																			</div>
 																		</div>
@@ -277,65 +272,65 @@
 													<!-- mega-menu end -->
 
 													<li class="dropdown">
-														<a href="#" class="dropdown-toggle" data-toggle="dropdown">Investment Promotion</a>
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" alt="Investment Promotion">Investment Promotion</a>
 														<ul class="dropdown-menu">
-															<li><a href="#">Benefits of FDI</a></li>
-															<li><a href="#">Developing Strategy</a></li>
-															<li><a href="#">FDI Data by Country</a></li>
-															<li><a href="#">FDI Data by U.S. State/Territory</a></li>
-															<li><a href="#">EDO Promotion Toolkit</a></li>
+															<li><a href="#" alt="Benefits of FDI">Benefits of FDI</a></li>
+															<li><a href="#" alt="Developing Strategy">Developing Strategy</a></li>
+															<li><a href="#" alt="FDI Data by Country">FDI Data by Country</a></li>
+															<li><a href="#" alt="FDI Data by U.S. State/Territory">FDI Data by U.S. State/Territory</a></li>
+															<li><a href="#" alt="EDO Promotion Toolkit">EDO Promotion Toolkit</a></li>
 														</ul>
 													</li>
 
 													<li class="dropdown">
-														<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" alt="Services">Services</a>
 														<ul class="dropdown-menu">
-															<li><a href="#">For Investors</a></li>
-															<li><a href="#">Information and Data services</a></li>
-													<li><a href="#">Promotional</a></li>
-													<li><a href="#">Advocacy</a></li>
+															<li><a href="#" alt="For Investors">For Investors</a></li>
+															<li><a href="#" alt="Information and Data services">Information and Data services</a></li>
+													    <li><a href="#" alt="Promotional">Promotional</a></li>
+													    <li><a href="#" alt="Advocacy">Advocacy</a></li>
 
 															<li><a href="#">Case Studies</a></li>
 														</ul>
 													</li>
 													<li class="dropdown">
-														<a href="#" class="dropdown-toggle" data-toggle="dropdown">Events</a>
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" alt="Events">Events</a>
 														<ul class="dropdown-menu">
-															<li><a href="#">SelectUSA Summit</a></li>
-															<li><a href="#"><strong>International</strong></a></li>
-															<li><a href="#">Road Shows</a></li>
-													<li><a href="#">Seminars</a></li>
-													<li><a href="#">Trade Shows</a></li>
-													<li><a href="#"><strong>Domestic</strong></a></li>
-													<li><a href="#">Trade Shows</a></li>
-													<li><a href="#">Training</a></li>
+															<li><a href="#" alt="SelectUSA Summit">SelectUSA Summit</a></li>
+															<li><a href="#" alt="International"><strong>International</strong></a></li>
+															<li><a href="#" alt="Road Shows">Road Shows</a></li>
+													    <li><a href="#" alt="Seminars">Seminars</a></li>
+													    <li><a href="#" alt="Trade Shows">Trade Shows</a></li>
+													    <li><a href="#" alt="Domestic"><strong>Domestic</strong></a></li>
+													    <li><a href="#" alt="Trade Shows">Trade Shows</a></li>
+													    <li><a href="#" alt="Training">Training</a></li>
 														</ul>
 													</li>
 
 													<li class="dropdown">
-														<a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" alt="About">About</a>
 														<ul class="dropdown-menu">
-															<li><a href="#">Leadership Bios</a></li>
-															<li><a href="#">Global and Domestic Teams</a></li>
-															<li><a href="#">Interagency Partners</a></li>
-															<li><a href="#">SelectUSA Summit</a></li>
-															<li><a href="#">FAQs</a></li>
-															<li><a href="#">Careers</a></li>
+															<li><a href="#" alt="Leadership Bios">Leadership Bios</a></li>
+															<li><a href="#" alt="Global and Domestic Teams">Global and Domestic Teams</a></li>
+															<li><a href="#" alt="Interagency Partners">Interagency Partners</a></li>
+															<li><a href="#" alt="SelectUSA Summit">SelectUSA Summit</a></li>
+															<li><a href="#" alt="FAQs">FAQs</a></li>
+															<li><a href="#" alt="Careers">Careers</a></li>
 														</ul>
 													</li>
 													<li class="dropdown">
-														<a href="#" class="dropdown-toggle" data-toggle="dropdown">Newsroom</a>
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" alt="Careers">Newsroom</a>
 														<ul class="dropdown-menu">
-															<li><a href="#">Press Releases</a></li>
-															<li><a href="#">Blog</a></li>
-															<li><a href="#">Social Media</a></li>
-															<li><a href="#">Multimedia</a></li>
-															<li><a href="#">Search</a></li>
-															<li><a href="#">Media Contact</a></li>
+															<li><a href="#" alt="Press Releases">Press Releases</a></li>
+															<li><a href="#" alt="Blog">Blog</a></li>
+															<li><a href="#" alt="Social Media">Social Media</a></li>
+															<li><a href="#" alt="Multimedia">Multimedia</a></li>
+															<li><a href="#" alt="Search">Search</a></li>
+															<li><a href="#" alt="Media Contact">Media Contact</a></li>
 														</ul>
 													</li>
 													<li class="dropdown">
-														<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" alt="Contact">Contact</a>
 
 													</li>
 												</ul>
@@ -357,19 +352,20 @@
 			</header>
 			<!-- header end -->
 
-</br></br>
-			<div class="main">
-			<div class="container">
-			<!-- Salesforce content start -->
+<!-- section start -->
+			<!-- ================ -->
+			<div class="section clearfix">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
 
-			Salesforce content
+							content
 
-			<!-- Salesforce content end -->
+						</div>
+					</div>
+				</div>
 			</div>
-			</div>
-
-</br></br>
-
+			<!-- section end -->
 
 
 			<!-- footer start (Add "light" class to #footer in order to enable light footer) -->
@@ -382,104 +378,97 @@
 					<div class="container">
 						<div class="row">
 
-							<div class="space-bottom hidden-lg hidden-xs"></div>
 							<div class="col-md-1">
 								<div class="footer-content">
-									<h5>Why Invest</h5>
+									<h5><a href="#" alt="Why Invest">Why Invest</a></h5>
 									<nav>
 										<ul class="nav nav-pills nav-stacked">
-															<li><a href="#">World’s Largest Market</a></li>
-															<li><a href="#">Land of Resources</a></li>
-															<li><a href="#">Nexus of Innovation</a></li>
-															<li><a href="#">Workforce Talent</a></li>
-															<li><a href="#">Ease of Doing Business</a></li>
-															<li><a href="#">Sector Spotlights</a></li>
+															<li><a href="#" alt="World’s Largest Market">World’s Largest Market</a></li>
+															<li><a href="#" alt="Land of Resources">Land of Resources</a></li>
+															<li><a href="#" alt="Nexus of Innovation">Nexus of Innovation</a></li>
+															<li><a href="#" alt="Workforce Talent">Workforce Talent</a></li>
+															<li><a href="#" alt="Ease of Doing Business">Ease of Doing Business</a></li>
+															<li><a href="#" alt="Sector Spotlights">Sector Spotlights</a></li>
 										</ul>
 									</nav>
 								</div>
 							</div>
 
-							<div class="space-bottom hidden-lg hidden-xs"></div>
 							<div class="col-md-1">
 								<div class="footer-content">
-									<h5>How to Invest</h5>
+									<h5><a href="#" alt="How to Invest">How to Invest</a></h5>
 									<nav>
 										<ul class="nav nav-pills nav-stacked">
-															<li><a href="#">The Basics</a></li>
-																					<li><a href="#">Cross-Sector Activities</a></li>
-																					<li><a href="#">Choose Your Location</a></li>
-																					<li><a href="#">Programs and Incentives</a></li>
-																					<li><a href="#">Tools and Resources</a></li>
+															            <li><a href="#" alt="The Basics"><strong>The Basics</strong></a></li>
+																					<li><a href="#" alt="Cross-Sector Activities"><strong>Cross-Sector Activities</strong></a></li>
+																					<li><a href="#" alt="Choose Your Location">Choose Your Location</a></li>
+																					<li><a href="#" alt="Programs and Incentives">Programs and Incentives</a></li>
+																					<li><a href="#" alt="Tools and Resources">Tools and Resources</a></li>
 										</ul>
 									</nav>
 								</div>
 							</div>
 
-							<div class="space-bottom hidden-lg hidden-xs"></div>
 							<div class="col-md-1">
 								<div class="footer-content">
-									<h5>Investment Promotion</h5>
+									<h5><a href="#" alt="Investment Promotion">Investment Promotion</a></h5>
 									<nav>
 										<ul class="nav nav-pills nav-stacked">
-															<li><a href="#">Benefits of FDI</a></li>
-															<li><a href="#">Developing Strategy</a></li>
-															<li><a href="#">FDI Data by Country</a></li>
-															<li><a href="#">FDI Data by U.S. State/Territory</a></li>
-															<li><a href="#">EDO Promotion Toolkit</a></li>
+															<li><a href="#" alt="Benefits of FDI">Benefits of FDI</a></li>
+															<li><a href="#" alt="Developing Strategy">Developing Strategy</a></li>
+															<li><a href="#" alt="FDI Data by Country">FDI Data by Country</a></li>
+															<li><a href="#" alt="FDI Data by U.S. State/Territory">FDI Data by U.S. State/Territory</a></li>
+															<li><a href="#" alt="EDO Promotion Toolkit">EDO Promotion Toolkit</a></li>
 										</ul>
 									</nav>
 								</div>
 							</div>
 
-							<div class="space-bottom hidden-lg hidden-xs"></div>
 							<div class="col-md-1">
 								<div class="footer-content">
-									<h5>Services</h5>
+									<h5><a href="#" alt="Services">Services</a></h5>
 									<nav>
 										<ul class="nav nav-pills nav-stacked">
-															<li><a href="#">For Investors</a></li>
-															<li><a href="#">Information and Data services</a></li>
-													<li><a href="#">Promotional</a></li>
-													<li><a href="#">Advocacy</a></li>
-
-															<li><a href="#">Case Studies</a></li>
+															<li><a href="#" alt="For Investors">For Investors</a></li>
+															<li><a href="#" alt="Information and Data services">Information and Data services</a></li>
+													    <li><a href="#" alt="Promotional">Promotional</a></li>
+													    <li><a href="#" alt="Advocacy">Advocacy</a></li>
+															<li><a href="#" alt="Case Studies">Case Studies</a></li>
 										</ul>
 									</nav>
 								</div>
 							</div>
 
-							<div class="space-bottom hidden-lg hidden-xs"></div>
 							<div class="col-md-1 ">
 								<div class="footer-content">
-									<h5>Events</h5>
+									<h5><a href="#" alt="Events">Events</a></h5>
 									<nav>
 										<ul class="nav nav-pills nav-stacked">
-															<li><a href="#">SelectUSA Summit</a></li>
-															<li><a href="#"><strong>International</strong></a></li>
-															<li><a href="#">Road Shows</a></li>
-													<li><a href="#">Seminars</a></li>
-													<li><a href="#">Trade Shows</a></li>
-													<li><a href="#"><strong>Domestic</strong></a></li>
-													<li><a href="#">Trade Shows</a></li>
-													<li><a href="#">Training</a></li>
+													<li><a href="#" alt="SelectUSA Summit">SelectUSA Summit</a></li>
+													<li><a href="#" alt="International"><strong>International</strong></a></li>
+													<li><a href="#" alt="Road Shows">Road Shows</a></li>
+													<li><a href="#" alt="Seminars">Seminars</a></li>
+													<li><a href="#" alt="Trade Shows">Trade Shows</a></li>
+													<li><a href="#" alt="Domestic"><strong>Domestic</strong></a></li>
+													<li><a href="#" alt="Trade Shows">Trade Shows</a></li>
+													<li><a href="#" alt="Training">Training</a></li>
 										</ul>
 									</nav>
 								</div>
 
 							</div>
 
-							<div class="space-bottom hidden-lg hidden-xs"></div>
 							<div class="col-md-1 ">
 								<div class="footer-content">
-									<h5>About</h5>
+									<h5><a href="#" alt="About">About</a></h5>
 									<nav>
 										<ul class="nav nav-pills nav-stacked">
-															<li><a href="#">Leadership Bios</a></li>
-															<li><a href="#">Global and Domestic Teams</a></li>
-															<li><a href="#">Interagency Partners</a></li>
-															<li><a href="#">SelectUSA Summit</a></li>
-															<li><a href="#">FAQs</a></li>
-															<li><a href="#">Careers</a></li>
+															<li><a href="#" alt="Leadership Bios">Leadership Bios</a></li>
+															<li><a href="#" alt="Global and Domestic Teams">Global and Domestic Teams</a></li>
+															<li><a href="#" alt="Interagency Partners">Interagency Partners</a></li>
+															<li><a href="#" alt="SelectUSA Summit">SelectUSA Summit</a></li>
+															<li><a href="#" alt="FAQs">FAQs</a></li>
+															<li><a href="#" alt="Careers">Careers</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -488,23 +477,22 @@
 							</div>
 
 
-							<div class="space-bottom hidden-lg hidden-xs"></div>
 							<div class="col-md-1">
 								<div class="footer-content">
-									<h5>Newsroom</h5>
+									<h5><a href="#" alt="Newsroom">Newsroom</a></h5>
 									<nav>
 										<ul class="nav nav-pills nav-stacked">
-															<li><a href="#">Press Releases</a></li>
-															<li><a href="#">Blog</a></li>
-															<li><a href="#">Social Media</a></li>
-															<li><a href="#">Multimedia</a></li>
-															<li><a href="#">Search</a></li>
-															<li><a href="#">Media Contact</a></li>
+															<li><a href="#" alt="Press Releases">Press Releases</a></li>
+															<li><a href="#" alt="Blog">Blog</a></li>
+															<li><a href="#" alt="Social Media">Social Media</a></li>
+															<li><a href="#" alt="Multimedia">Multimedia</a></li>
+															<li><a href="#" alt="Search">Search</a></li>
+															<li><a href="#" alt="Media Contact">Media Contact</a></li>
 										</ul>
 									</nav>
 								</div>
 								<div class="footer-content">
-									<h5>Contact</h5>
+									<h5><a href="#" alt="Contact">Contact</a></h5>
 
 								</div>
 							</div>
@@ -514,7 +502,6 @@
 
 
 						</div>
-						<div class="space-bottom hidden-lg hidden-xs"></div>
 					</div>
 				</div>
 				<!-- .footer end -->
@@ -524,27 +511,28 @@
 				<div class="subfooter">
 					<div class="container">
 
-							<div class="col-md-12">
+
 								 <p class="footer2">
-    Selectusa.gov is an official site of the U.S. Government<br>
-    <a href="https://help.export.gov/ics/support/ticketnewwizard.asp?style=classic&amp;feedback=true">Submit Feedback</a>&nbsp;|
-		<a href="#">Contact Us</a>&nbsp;|
-		<a href="#">Privacy Policy</a>&nbsp;|
-		<a href="#">Disclaimer</a>&nbsp;|
-		<a href="#">About Us</a>&nbsp;|
-		<a href="http://www.usa.gov">USA.gov</a>&nbsp;|
+    Selectusa.gov is an official site of the U.S. Government<br><small>
+    <a href="https://help.export.gov/ics/support/ticketnewwizard.asp?style=classic&amp;feedback=true"  alt="Submit Feedback">Submit Feedback</a>&nbsp;&nbsp;|
+		<a href="#" alt="Contact Us">Contact Us</a>&nbsp;&nbsp;|
+		<a href="#" alt="Privacy Policy">Privacy Policy</a>&nbsp;&nbsp;|
+		<a href="#" alt="Disclaimer">Disclaimer</a>&nbsp;&nbsp;|
+		<a href="#" alt="About Us">About Us</a>&nbsp;&nbsp;|
+		<a href="http://www.usa.gov" alt="USA.gov">USA.gov</a>&nbsp;&nbsp;|
 		<!-- &nbsp;| -->
-		<a href="http://www.osec.doc.gov/omo/FOIA/FOIAWEBSITE.htm">FOIA</a>&nbsp;|
-		<a href="http://ocio.os.doc.gov/ITPolicyandPrograms/Information_Quality/index.htm">Information Quality</a>&nbsp;|
-		<a href="http://www.osec.doc.gov/ocr/nofear/nofear.htm">No Fear</a>&nbsp;|
-		<a href="#">Site Map</a>&nbsp;|
-		<a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">Download Adobe Reader</a>
+		<a href="http://www.osec.doc.gov/omo/FOIA/FOIAWEBSITE.htm" alt="FOIA">FOIA</a>&nbsp;&nbsp;|
+		<a href="http://ocio.os.doc.gov/ITPolicyandPrograms/Information_Quality/index.htm" alt="Information Quality">Information Quality</a>&nbsp;&nbsp;|
+		<a href="http://www.osec.doc.gov/ocr/nofear/nofear.htm" alt="No Fear">No Fear</a>&nbsp;&nbsp;|
+		<a href="#" alt="Site Map">Site Map</a>&nbsp;&nbsp;|
+		<a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank" alt="Download Adobe Reader">Download Adobe Reader</a></small>
   </p>
 
-						</div>
+
 					</div>
 				</div>
 				<!-- .subfooter end -->
+
 			</footer>
 			<!-- footer end -->
 
